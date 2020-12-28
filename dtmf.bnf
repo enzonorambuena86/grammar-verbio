@@ -1,0 +1,7 @@
+#ABNF 1.0 ISO8859-1
+mode dtmf;
+
+root $answer = $digit;
+
+$digit = (1 | 2 | 3 | 5);
+
